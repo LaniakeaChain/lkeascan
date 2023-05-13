@@ -1,0 +1,45 @@
+import React, { useContext } from 'react';
+
+import { themed } from 'theming';
+
+import { WalletContext } from '.';
+
+export default function AddChain() {
+  const { provider } = useContext(WalletContext);
+
+  if (provider === null) {
+    return null;
+  }
+
+  const chainParams = themed('chainParameters');
+
+  async function addChainHandler() {
+    try {
+      await provider.request({
+        method: 'wallet_switchEthereumChain',
+        params: [{ chainId: chainParams.chainId }],
+      });
+    } catch (switchError) {
+      // This error code indicates that the chain has not been added to MetaMask.
+      if (switchError.code === 4902) {
+        try {
+          console.log('HEHEHE');
+
+          const res = await provider.request({
+            method: 'wallet_addEthereumChain',
+            params: [chainParams],
+          });
+
+          console.log(res);
+        } catch (addError) {
+          console.log(addError);
+        }
+      }
+
+      // handle other "switch" errors
+      console.log(switchError);
+    }
+  }
+
+  return <button onClick={addChainHandler}>Add Chain</button>;
+}

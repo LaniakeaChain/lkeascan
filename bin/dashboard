@@ -1,0 +1,5 @@
+#!/bin/sh
+
+az aks browse --resource-group explorer --name explorer-2020
+
+

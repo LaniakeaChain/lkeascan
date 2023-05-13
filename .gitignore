@@ -1,0 +1,10 @@
+.idea
+.env
+.next
+node_modules
+graveyard
+dist
+.DS_Store
+/newrelic_agent.log
+/.vscode
+/.eslintcache

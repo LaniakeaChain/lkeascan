@@ -1,0 +1,557 @@
+{
+  "frost": {
+    "currency": "ICZ",
+    "windowTitle": "Epirus | Frost Network Explorer",
+    "logo": "/static/frost/logo.svg",
+    "logoFavicon": "/static/frost/favicon.svg",
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": ""
+  },
+  "arctic": {
+    "currency": "ICZ",
+    "windowTitle": "Epirus | Arctic Network Explorer",
+    "logo": "/static/arctic/logo.svg",
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": ""
+  },
+  "rinkeby": {
+    "currency": "RIN",
+    "smallCurrency": "wei",
+    "windowTitle": "Rinkeby | Sirato Explorer",
+    "networkEnabled": true,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet"
+  },
+  "goerli": {
+    "currency": "GETH",
+    "smallCurrency": "wei",
+    "windowTitle": "Goerli | Sirato Explorer",
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 10000,
+    "autoRefreshDashboardMs": 10000,
+    "headerEnvLabel": "testnet"
+  },
+  "palm": {
+    "currency": "PALM",
+    "windowTitle": "Palm | Blockchain Explorer",
+    "logo": "/static/palm/logo.png",
+    "logoFavicon": "/static/palm/favicon/favicon_48.png",
+    "favicon": {
+      "32": "/static/palm/favicon/favicon_32.png",
+      "48": "/static/palm/favicon/favicon_48.png",
+      "headerEnvLabel": ""
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "metamask": {
+      "onboarding": "Please, go to <a href=\"https://app.palm.io/configure\" target=\"_blank\">https://app.palm.io/configure</a> to configure MetaMask for Palm."
+    },
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": ""
+  },
+  "palm-test": {
+    "currency": "PALM",
+    "windowTitle": "Palm Testnet | Blockchain Explorer",
+    "logo": "/static/palm/logo.png",
+    "logoFavicon": "/static/palm/favicon/favicon_48.png",
+    "favicon": {
+      "32": "/static/palm/favicon/favicon_32.png",
+      "48": "/static/palm/favicon/favicon_48.png"
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "metamask": {
+      "onboarding": "Please, go to <a href=\"https://app.palm-uat.xyz/configure\" target=\"_blank\">https://app.palm-uat.xyz/configure</a> to configure MetaMask for Palm Testnet."
+    },
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet"
+  },
+  "watr-test": {
+    "currency": "WATRD",
+    "windowTitle": "WATR | Testnet Block Explorer",
+    "companyLink": "https://www.watr.org/",
+    "companyName": "Watr Foundation",
+    "supportEmail": "support@web3labs.com",
+    "logo": "/static/watr/watr_logo_white.svg",
+    "logoFavicon": "/static/watr/watr_logo-40.png",
+    "favicon": {
+      "32": "/static/watr/watr_logo-40.png",
+      "48": "/static/watr/watr_logo-40.png"
+    },
+    "palette": {
+      "header": {
+        "background": "rgb(42, 42, 42)"
+      }
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet"
+  },
+  "nerd-test": {
+    "currency": "NERD",
+    "decimals": 8,
+    "windowTitle": "Test | Nerd Chain Block Explorer",
+    "companyLink": "https://nerdunited.com",
+    "companyName": "Nerd United",
+    "logo": "/static/nerd/logo_white.png",
+    "logoFavicon": "/static/nerd/fav.png",
+    "favicon": {
+      "32": "/static/nerd/fav.png",
+      "48": "/static/nerd/fav.png"
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet"
+  },
+  "nerd": {
+    "currency": "NERD",
+    "decimals": 8,
+    "windowTitle": "Nerd United Chain Block Explorer",
+    "companyLink": "https://nerdunited.com",
+    "companyName": "Nerd United",
+    "logo": "/static/nerd/logo_white.png",
+    "logoFavicon": "/static/nerd/fav.png",
+    "favicon": {
+      "32": "/static/nerd/fav.png",
+      "48": "/static/nerd/fav.png"
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": ""
+  },
+  "nerd-dev": {
+    "currency": "LACE",
+    "decimals": 8,
+    "windowTitle": "Dev Nerd Chain Block Explorer",
+    "companyLink": "https://nerdunited.com",
+    "companyName": "Nerd United",
+    "logo": "/static/nerd/logo_white.png",
+    "logoFavicon": "/static/nerd/fav.png",
+    "favicon": {
+      "32": "/static/nerd/fav.png",
+      "48": "/static/nerd/fav.png"
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "devnet"
+  },
+  "nerd-test-element": {
+    "currency": "ELMT",
+    "decimals": 8,
+    "windowTitle": "Test | Element United Block Explorer",
+    "companyLink": "http://elementunited.com/",
+    "companyName": "Element United",
+    "logo": "/static/nerd/brands/element_logo.svg",
+    "logoFavicon": "/static/nerd/brands/element_fav-192x192.png",
+    "favicon": {
+      "32": "/static/nerd/brands/element_fav-32x32.png"
+    },
+    "palette": {
+      "header": {
+        "background": "rgb(181, 162, 130)"
+      }
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet"
+  },
+  "nerd-element": {
+    "currency": "ELMT",
+    "decimals": 8,
+    "windowTitle": "Element United Block Explorer",
+    "companyLink": "http://elementunited.com/",
+    "companyName": "Element United",
+    "logo": "/static/nerd/brands/element_logo.svg",
+    "logoFavicon": "/static/nerd/brands/element_fav-192x192.png",
+    "favicon": {
+      "32": "/static/nerd/brands/element_fav-32x32.png"
+    },
+    "palette": {
+      "header": {
+        "background": "rgb(181, 162, 130)"
+      }
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": ""
+  },
+  "nerd-test-elevate": {
+    "currency": "tELV",
+    "decimals": 8,
+    "windowTitle": "Test | Elevate United Block Explorer",
+    "companyLink": "https://elevateunited.com",
+    "companyName": "Elevate United",
+    "logo": "/static/nerd/brands/elevate_logo-white.svg",
+    "logoFavicon": "/static/nerd/brands/elevate_fav-192x192.png",
+    "favicon": {
+      "32": "/static/nerd/brands/elevate_fav-32x32.png"
+    },
+    "palette": {
+      "header": {
+        "background": "rgb(19, 30, 46)"
+      }
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet",
+    "supportLink": "https://elevateunited.com/"
+  },
+  "nerd-elevate": {
+    "currency": "ELV",
+    "decimals": 8,
+    "windowTitle": "Elevate United Block Explorer",
+    "companyLink": "https://elevateunited.com",
+    "companyName": "Elevate United",
+    "logo": "/static/nerd/brands/elevate_logo-white.svg",
+    "logoFavicon": "/static/nerd/brands/elevate_fav-192x192.png",
+    "favicon": {
+      "32": "/static/nerd/brands/elevate_fav-32x32.png"
+    },
+    "palette": {
+      "header": {
+        "background": "rgb(19, 30, 46)"
+      }
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": ""
+  },
+  "nerd-test-connect": {
+    "currency": "LACE",
+    "decimals": 8,
+    "windowTitle": "Test | Connect United Block Explorer",
+    "companyLink": "https://connectunited.com",
+    "companyName": "Connect United",
+    "logo": "/static/nerd/brands/connect_logo.svg",
+    "logoFavicon": "/static/nerd/brands/connect_fav-192x192.png",
+    "favicon": {
+      "32": "/static/nerd/brands/connect_fav-32x32.png"
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet"
+  },
+  "nerd-switch": {
+    "currency": "SWITCH",
+    "decimals": 8,
+    "windowTitle": "Switch Reward Card Block Explorer",
+    "companyLink": "https://switchrewardcard.com",
+    "companyName": "Switch Reward Card",
+    "logo": "/static/nerd/brands/switch_logo-white.png",
+    "logoFavicon": "/static/nerd/brands/switch_fav-192x192.png",
+    "favicon": {
+      "32": "/static/nerd/brands/switch_fav-32x32.png"
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": ""
+  },
+  "nerd-test-switch": {
+    "currency": "SWITCH",
+    "decimals": 8,
+    "windowTitle": "Test | Switch Reward Card Block Explorer",
+    "companyLink": "https://switchrewardcard.com",
+    "companyName": "Switch Reward Card",
+    "logo": "/static/nerd/brands/switch_logo-white.png",
+    "logoFavicon": "/static/nerd/brands/switch_fav-192x192.png",
+    "favicon": {
+      "32": "/static/nerd/brands/switch_fav-32x32.png"
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet"
+  },
+  "nerd-galvan": {
+    "currency": "IZE",
+    "decimals": 8,
+    "windowTitle": "Galvan Block Explorer",
+    "companyLink": "https://www.galvan.health",
+    "companyName": "Galvan DAO",
+    "logo": "/static/nerd/brands/galvan_logo-white.png",
+    "logoFavicon": "/static/nerd/brands/galvan_fav-40x40.png",
+    "favicon": {
+      "32": "/static/nerd/brands/galvan_fav-32x32.png",
+      "48": "/static/nerd/brands/galvan_fav-32x32.png"
+    },
+    "palette": {
+      "header": {
+        "background": "rgb(0, 32, 91)"
+      }
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": ""
+  },
+  "nerd-test-qube": {
+    "currency": "QUBE",
+    "decimals": 8,
+    "windowTitle": "Test | Qube Block Explorer",
+    "companyLink": "https://quberewards.com/",
+    "companyName": "Qube",
+    "logo": "/static/nerd/brands/qube_logo-white.svg",
+    "logoFavicon": "/static/nerd/brands/qube_logo-black.svg",
+    "favicon": {
+      "32": "/static/nerd/fav.png",
+      "48": "/static/nerd/fav.png"
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet"
+  },
+  "nerd-test-pixll": {
+    "currency": "PXL",
+    "decimals": 8,
+    "windowTitle": "Test | Pixll Block Explorer",
+    "companyLink": "https://pixll.io/",
+    "companyName": "Pixll",
+    "logo": "/static/nerd/brands/pixll_logo-white.svg",
+    "logoFavicon": "/static/nerd/brands/pixll_fav-40x40.png",
+    "favicon": {
+      "32": "/static/nerd/brands/pixll_fav-32x32.png",
+      "48": "/static/nerd/brands/pixll_fav-32x32.png"
+    },
+    "palette": {
+      "header": {
+        "background": "rgb(0, 0, 0)"
+      }
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet"
+  },
+  "nerd-pixll": {
+    "currency": "PXL",
+    "decimals": 8,
+    "windowTitle": "Pixll Block Explorer",
+    "companyLink": "https://pixll.pro/",
+    "companyName": "Pixll",
+    "supportLink": "https://pixll.pro/support",
+    "logo": "/static/nerd/brands/pixll_logo-white.svg",
+    "logoFavicon": "/static/nerd/brands/pixll_fav-40x40.png",
+    "favicon": {
+      "32": "/static/nerd/brands/pixll_fav-32x32.png",
+      "48": "/static/nerd/brands/pixll_fav-32x32.png"
+    },
+    "palette": {
+      "header": {
+        "background": "rgb(0, 0, 0)"
+      }
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": ""
+  },
+  "nerd-test-win": {
+    "currency": "WIN",
+    "decimals": 8,
+    "windowTitle": "Test | Win Block Explorer",
+    "companyLink": "https://nerdunited.com",
+    "companyName": "Win",
+    "logo": "/static/nerd/brands/win_logo-white.png",
+    "logoFavicon": "/static/nerd/fav.png",
+    "favicon": {
+      "32": "/static/nerd/fav.png",
+      "48": "/static/nerd/fav.png"
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet"
+  },
+  "nerd-win": {
+    "currency": "WIN",
+    "decimals": 8,
+    "windowTitle": "Win Block Explorer",
+    "companyLink": "https://nerdunited.com",
+    "companyName": "Win",
+    "logo": "/static/nerd/brands/win_logo-white.png",
+    "logoFavicon": "/static/nerd/fav.png",
+    "favicon": {
+      "32": "/static/nerd/fav.png",
+      "48": "/static/nerd/fav.png"
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": ""
+  },
+  "nerd-test-nerdcore": {
+    "currency": "LACE",
+    "decimals": 8,
+    "windowTitle": "Test | Nerdcore Block Explorer",
+    "companyLink": "https://nerdunited.com",
+    "companyName": "Nerd United",
+    "logo": "/static/nerd/logo_white.png",
+    "logoFavicon": "/static/nerd/fav.png",
+    "favicon": {
+      "32": "/static/nerd/fav.png",
+      "48": "/static/nerd/fav.png"
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet"
+  },
+  "nerd-test-green": {
+    "currency": "GREEN",
+    "decimals": 8,
+    "windowTitle": "Test | Green Block Explorer",
+    "companyLink": "https://setpowerfree.com/",
+    "companyName": "Green",
+    "logo": "/static/nerd/brands/green_logo-white.svg",
+    "logoFavicon": "/static/nerd/brands/green_fav-40x40.png",
+    "favicon": {
+      "32": "/static/nerd/brands/green_fav-32x32.png",
+      "48": "/static/nerd/brands/green_fav-32x32.png"
+    },
+    "palette": {
+      "header": {
+        "background": "rgb(111,190,68)"
+      }
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet"
+  },
+  "nerd-test-galvan": {
+    "currency": "IZE",
+    "decimals": 8,
+    "windowTitle": "Test | Galvan Block Explorer",
+    "companyLink": "https://www.galvan.health",
+    "companyName": "Galvan DAO",
+    "logo": "/static/nerd/brands/galvan_logo-white.png",
+    "logoFavicon": "/static/nerd/brands/galvan_fav-40x40.png",
+    "favicon": {
+      "32": "/static/nerd/brands/galvan_fav-32x32.png",
+      "48": "/static/nerd/brands/galvan_fav-32x32.png"
+    },
+    "palette": {
+      "header": {
+        "background": "rgb(0, 32, 91)"
+      }
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet"
+  },
+  "nerd-give": {
+    "currency": "GIVE",
+    "decimals": 8,
+    "windowTitle": "Give Block Explorer",
+    "companyLink": "https://giveblockchain.io/",
+    "companyName": "Give",
+    "logo": "/static/nerd/brands/give_logo-white.svg",
+    "logoFavicon": "/static/nerd/brands/give_fav-192x192.png",
+    "favicon": {
+      "32": "/static/nerd/brands/give_fav-32x32.png",
+      "48": "/static/nerd/brands/give_fav-32x32.png"
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": ""
+  },
+  "nerd-test-give": {
+    "currency": "GIVE",
+    "decimals": 8,
+    "windowTitle": "Test | Give Block Explorer",
+    "companyLink": "https://giveblockchain.io/",
+    "companyName": "Give",
+    "logo": "/static/nerd/brands/give_logo-white.svg",
+    "logoFavicon": "/static/nerd/brands/give_fav-192x192.png",
+    "favicon": {
+      "32": "/static/nerd/brands/give_fav-32x32.png",
+      "48": "/static/nerd/brands/give_fav-32x32.png"
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "testnet"
+  },
+  "vmw": {
+    "windowTitle": "VMware Blockchain Explorer",
+    "companyName": "VMware",
+    "companyLink": "https://www.vmware.com/products/blockchain.html",
+    "logo": "/static/vmw/logo.svg",
+    "logoFavicon": "/static/vmw/logo_dark.svg",
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": ""
+  },
+  "mythical": {
+    "windowTitle": "Mythical Blockchain Explorer",
+    "currency": "nMYTH",
+    "companyName": "Mythical Inc",
+    "companyLink": "https://mythicalgames.com/",
+    "logo": "/static/myth/logo.svg",
+    "logoFavicon": "/static/myth/favicon.ico",
+    "favicon": {
+      "32": "/static/myth/favicon.ico",
+      "48": "/static/myth/favicon.ico"
+    },
+    "networkEnabled": false,
+    "profileEnabled": false,
+    "autoRefreshTableMs": 0,
+    "autoRefreshDashboardMs": 0,
+    "headerEnvLabel": "",
+    "palette": {
+      "header": {
+        "background": "rgb(19,22,25)"
+      }
+    },
+    "supportEmail": "downs@mythical.games",
+    "accountTabEnabled": true
+  }
+}

@@ -1,0 +1,62 @@
+import React, { useContext } from 'react';
+
+import { WalletContext } from 'components/wallet';
+import { ITokenDetailsFetch } from 'models/models-details-tokens';
+
+const tokenImage = 'http://placekitten.com/200/300';
+
+async function reg(provider, details: ITokenDetailsFetch) {
+  try {
+    const { address, decimals, symbol } = details;
+
+    // wasAdded is a boolean. Like any RPC method, an error may be thrown.
+    const wasAdded = await provider.request({
+      method: 'wallet_watchAsset',
+      params: {
+        type: 'ERC20', // Initially only supports ERC20, but eventually more!
+        options: {
+          address: address, // The address that the token is at.
+          symbol: symbol, // A ticker symbol or shorthand, up to 5 chars.
+          decimals: decimals, // The number of decimals in the token
+          image: tokenImage, // A string url of the token logo
+        },
+      },
+    });
+
+    if (wasAdded) {
+      console.log('Thanks for your interest!');
+    } else {
+      console.log('Your loss!');
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1102.md
+async function connect(provider) {
+  try {
+    // Request account access if needed
+    const accounts = provider.request({ method: 'eth_requestAccounts' });
+    // This should update current account?
+  } catch (error) {
+    // access denied
+  }
+}
+
+interface Props {
+  tokenDetails: ITokenDetailsFetch;
+}
+
+export default function RegisterToken({ tokenDetails }: Props) {
+  const { provider } = useContext(WalletContext);
+
+  function registerToken() {
+    if (provider) {
+      reg(provider, tokenDetails);
+      //connect(provider);
+    }
+  }
+
+  return <button onClick={registerToken}>REGISTER!</button>;
+}
